@@ -1,0 +1,11 @@
+{% extends 'encyclopedia/layout.html'%}
+
+{% block title%}
+    <title>Searching</title>
+{%endblock%}
+{%block body%}
+    <h1>Is this what you mean?</h1>
+    <ul>
+    <li><a  href='/wiki/{{entry}}'>{{entry}}</a></li>
+    </ul>
+{%endblock%}

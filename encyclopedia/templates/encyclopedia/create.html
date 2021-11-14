@@ -1,0 +1,26 @@
+{% extends 'encyclopedia/layout.html' %}
+
+{% block title%}
+    <title> Create </title>
+{% endblock%}
+
+{% block body%}
+    <h1 class='title1'>Creating a Page</h1>
+    {% if existing %}
+        <h1 style='border-radius: 5px;border: 
+        red;border-style: dashed;background-color: red;
+        text-align:center;vertical-align:center;
+        color:white;padding-bottom:20px;'>
+        This page already exists.
+        </h1>
+    {% endif %}
+    <div class='form_create'>
+        <form action="{% url 'create' %}" method='post'>
+            {% csrf_token %}
+            <div class='textarea'>
+                {{form}}
+            </div>
+            <input type='submit'>
+        </form>
+    </div>
+{% endblock%}
