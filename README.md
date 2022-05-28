@@ -8,6 +8,6 @@ Pages data a stored as markdown *.md* files for simplicity since there is no nee
 * Start the server by writing python manage.py runserver into your terminal
 
 <p>
-  <img width=300 src="https://github.com/ahmedheakl/Wikipedia-Clone-Using-Django/blob/main/imgs/wiki_preview_1.png">
-  <img width=300 src="https://github.com/ahmedheakl/Wikipedia-Clone-Using-Django/blob/main/imgs/wiki_preview_2.png">
+  <img width=400 src="https://github.com/ahmedheakl/Wikipedia-Clone-Using-Django/blob/main/imgs/wiki_preview_1.png">
+  <img width=400 src="https://github.com/ahmedheakl/Wikipedia-Clone-Using-Django/blob/main/imgs/wiki_preview_2.png">
 </p>
