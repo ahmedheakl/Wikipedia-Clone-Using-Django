@@ -5,7 +5,7 @@ Pages data a stored as markdown *.md* files for simplicity since there is no nee
 
 ## How to Use & Samples 
 * Clone this repository into your PC
-* Start the server by writing python manage.py runserver into your terminal
+* Start the server by writing ```python manage.py runserver``` into your terminal
 
 <p align='center'>
   <img width=500 src="https://github.com/ahmedheakl/Wikipedia-Clone-Using-Django/blob/main/imgs/wiki_preview_1.png">
